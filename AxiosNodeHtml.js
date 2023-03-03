@@ -7,8 +7,8 @@ const app = express();
 var bodyParser = require('body-parser');
 
 // Base URL for the API
-const base_url = "node42392-sapol.proen.app.ruk-com.cloud:11433";
-//const base_url = "http://localhost:3000";
+//const base_url = "http://node42392-sapol.proen.app.ruk-com.cloud:11433/books";
+const base_url = "http://localhost:3000";
 
 // Set the template engine
 app.set('view engine', 'ejs');
