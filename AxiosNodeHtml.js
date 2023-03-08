@@ -7,7 +7,7 @@ const app = express();
 var bodyParser = require('body-parser');
 
 // Base URL for the API
-const base_url = "https://node42392-sapol.proen.app.ruk-com.cloud:11433";
+const base_url = "http://node42392-sapol.proen.app.ruk-com.cloud:11433";
 //const base_url = "http://localhost:3000";
 
 // Set the template engine
