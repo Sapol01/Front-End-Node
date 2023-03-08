@@ -9,8 +9,8 @@ const path = require("path");
 const app = express();
 
 // Base URL for the API
-const base_url = "http://node42392-sapol.proen.app.ruk-com.cloud";
-//const base_url = "http://localhost:3000";
+//const base_url = "http://node42392-sapol.proen.app.ruk-com.cloud";
+const base_url = "http://localhost:3000";
 
 // Set the template engine
 app.set("views", path.join(__dirname, "public/views"));
